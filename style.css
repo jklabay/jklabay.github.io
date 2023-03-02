@@ -1,21 +1,23 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #a8d5e5;
+    background-color: white;
 }
 
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('bg.jpg');
+    background-color: black;
     background-size:cover;
     position:relative;
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-family: monaco, Consolas, "Lucida Console", monospace; 
 }
 .hero_desc {
     font-size: 2rem;
+    font-family: monaco, Consolas, "Lucida Console", monospace; 
 }
 .hero-text {
     text-align: center;
@@ -72,6 +74,20 @@
 }
 /* footer styling */
 #footer {
-    background-color: #a8d5e5;
+    background-color: whitesmoke;
     text-align: center;
 }
+
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  .nav-link:hover {
+    color: green;
+  }
