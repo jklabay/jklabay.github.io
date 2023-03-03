@@ -91,3 +91,17 @@ a:link {
   .nav-link:hover {
     color: green;
   }
+
+  .carousel-item{
+    height:35rem;
+    background:#777;
+    color:white;
+    position:relative;
+  }
+  .item{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:50px;
+  }
