@@ -1,12 +1,10 @@
-/* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: white;
+    background-color: black;
 }
-
 /* hero background image */
 .bgimage {
     height:100vh;
-    background-color: black;
+    background-color: #121212;
     background-size:cover;
     position:relative;
 }
@@ -31,34 +29,15 @@
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
     margin-top: 4rem;
-    padding-top: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 } 
 #contact {
     padding-bottom: 4rem;
 }
 /* about section image css */
 .imageAboutPage {
-    width: 100%;
-}
-
-/* services section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
-.card-title {
-    text-align: center;
-}
-.card:hover .servicesIcon {
-    color: #008000;
-}
-.servicesText:hover {
-    border: 1px solid #008000;
+    width: 80%;
 }
 
 /* social media icons styling */
@@ -86,11 +65,19 @@ a:link {
   a:visited {
     color: black;
   }
+  a:hover {
+    color: green;
+  }
   
   /* mouse over link */
   .nav-link:hover {
     color: green;
   }
+
+  .navbar-brand:hover{
+    color: green;
+  }
+
 
   .carousel-item{
     height:35rem;
