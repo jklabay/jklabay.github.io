@@ -3,11 +3,15 @@ const header = document.querySelector('.navbar');
 
 window.onscroll = function() {
     var top = window.scrollY;
-    if(top >=100) {
-        header.classList.add('navbarDark');
+    if(document.body.scrollTop>=100) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("navbar").style.opacity = "0.5";
+        document.getElementById("logo").style.fontSize = "25px";
     }
     else {
-        header.classList.remove('navbarDark');
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
+        document.getElementById("navbar").style.opacity = "1";
     }
 }
 // collapse navbar after click on small devices
