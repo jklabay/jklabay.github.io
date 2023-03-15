@@ -81,7 +81,7 @@ a:link {
 
   .carousel-item{
     height:45rem;
-    background:#777;
+    background: rgb(85, 104, 104);
     color:white;
     position:relative;
   }
