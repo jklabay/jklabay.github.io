@@ -1,6 +1,4 @@
-.navbarScroll.navbarDark {
-    background-color: black;
-}
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -78,6 +76,19 @@ a:link {
     color: green;
   }
 
+  .navbar-scroll {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .navbar-scrolled {
+    background-color: #fff;
+  }
+
+  nav.bg-dark {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  }
+
 
   .carousel-item{
     height:45rem;
@@ -122,3 +133,5 @@ a:link {
     background-color: #abdbe3; 
     color: white;
   }
+
+  
